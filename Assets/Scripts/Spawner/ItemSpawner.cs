@@ -8,7 +8,7 @@ public class ItemSpawner : Spawner
 
     public static ItemSpawner Intance { get => intance; }
 
-    public static string diabay = "dia bay";
+    public static string uiitemOne = "UiItem_1";
 
     protected override void Awake()
     {
@@ -16,5 +16,4 @@ public class ItemSpawner : Spawner
         if (ItemSpawner.intance != null) Debug.Log("Only 1 ItemSpawner allow to exist");
         ItemSpawner.intance = this;
     }
-
 }

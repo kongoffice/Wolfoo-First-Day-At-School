@@ -7,7 +7,7 @@ public abstract class Spawner : CTMonoBehaviour
 {
     [SerializeField] protected Transform holder;
     [SerializeField] protected List<Transform> prefabs;
-    [SerializeField] protected List<GameObject> poolObjs;
+    [SerializeField] protected List<Transform> poolObjs;
 
     protected override void LoadComponents()
     {
@@ -43,7 +43,7 @@ public abstract class Spawner : CTMonoBehaviour
         }
     }
 
-    protected virtual Transform Spawn(string prefabName, Vector3 spawnPos, Quaternion rotation)
+    public virtual Transform Spawn(string prefabName, Vector3 spawnPos, Quaternion rotation)
     {
         Transform prefab = this.GetPrefabByName(prefabName);
         if(prefab == null)

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DiaBayDepawn : DespawnByDitance
+public class ItemDespawn : DespawnByDitance
 {
     protected override void DespawnObject()
     {
-        DiaBayDepawn.Intance.Despawn(transform.parent);
+        ItemSpawner.Intance.Despawn(transform.parent);
     }
 }

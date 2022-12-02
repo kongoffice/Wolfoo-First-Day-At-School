@@ -9,7 +9,7 @@ public class DespawnByDitance : Despawn
     [SerializeField] protected float distance = 0f;
     [SerializeField] protected Camera mainCam;
 
-    protected virtual void FixedUpdate()
+    protected override void FixedUpdate()
     {
         this.Despawning();
     }
@@ -26,13 +26,13 @@ public class DespawnByDitance : Despawn
         Debug.Log(transform.parent.name + ": LoadCamera", gameObject);
     }
 
-    protected virtual void Despawning()
+    protected override void Despawning()
     {
         if (!this.CanDespawn()) return;
         this.DespawnObject();
     }
 
-    protected virtual void DespawnObject()
+    protected override void DespawnObject()
     {
         Destroy(transform.parent.gameObject);
     }
@@ -40,6 +40,7 @@ public class DespawnByDitance : Despawn
     protected override bool CanDespawn()
     {
         this.distance = Vector3.Distance(transform.position, this.mainCam.transform.position);
+        if (this.distance > disLimit) return true;
         return false;
     }
 

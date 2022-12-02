@@ -5,11 +5,21 @@ using UnityEngine;
 
 public abstract class Spawner : CTMonoBehaviour
 {
+    [SerializeField] protected Transform holder;
     [SerializeField] protected List<Transform> prefabs;
+    [SerializeField] protected List<GameObject> poolObjs;
 
     protected override void LoadComponents()
     {
         this.LoadPrefabs();
+        this.LoadHolder();
+    }
+
+    protected virtual void LoadHolder()
+    {
+        if (this.holder != null) return;
+        this.holder = transform.Find("Holder");
+        Debug.Log(transform.name + ": LoadHolder", gameObject);
     }
 
     protected virtual void LoadPrefabs()
@@ -41,8 +51,33 @@ public abstract class Spawner : CTMonoBehaviour
             Debug.LogWarning("Prefab not found: " + prefabName);
             return null;
         }
-        Transform newPrefab = Instantiate(prefab, spawnPos, rotation);
+        Transform newPrefab = this.GetObjectFromPool(prefab);
+        newPrefab.SetLocalPositionAndRotation(spawnPos, rotation);
+
+        newPrefab.parent = this.holder;
         return newPrefab;
+    }
+
+    protected virtual Transform GetObjectFromPool(Transform prefab)
+    {
+        foreach(Transform poolObj in this.poolObjs)
+        {
+            if (poolObj.name == prefab.name)
+            {
+                this.poolObjs.Remove(poolObj);
+                return poolObj;
+            }
+        }
+
+        Transform newPrefab = Instantiate(prefab);
+        newPrefab.name = prefab.name;
+        return newPrefab;
+    }
+
+    public virtual void Despawn(Transform obj)
+    {
+        this.poolObjs.Add(obj);
+        obj.gameObject.SetActive(false);
     }
 
     protected virtual Transform GetPrefabByName(string prefabName)

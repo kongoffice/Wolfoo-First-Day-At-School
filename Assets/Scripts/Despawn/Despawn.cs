@@ -9,18 +9,6 @@ public abstract class Despawn : CTMonoBehaviour
         this.Despawning();
     }
 
-    protected override void LoadComponents()
-    {
-        this.LoadCamera();
-    }
-
-    protected virtual void LoadCamera()
-    {
-        if (this.mainCam != null) return;
-        this.mainCam = Transform.FindObjectOfType<Camera>();
-        Debug.Log(transform.parent.name + ": LoadCamera", gameObject);
-    }
-
     protected virtual void Despawning()
     {
         if (!this.CanDespawn()) return;
@@ -32,9 +20,5 @@ public abstract class Despawn : CTMonoBehaviour
         Destroy(transform.parent.gameObject);
     }
 
-    protected abs void CanDespawn()
-    {
-        this.distance = Vector3.Distance(transform.position);
-    }
-
+    protected abstract bool CanDespawn();
 }

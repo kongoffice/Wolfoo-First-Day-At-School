@@ -1,11 +1,15 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Spawner : CTMonoBehaviour
 {
+    [Header("Spawner")]
     [SerializeField] protected Transform holder;
+
+    [SerializeField] protected int spawnedCount = 0;
+    public int SpawnedCount => spawnedCount;
+
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjs;
 
@@ -51,6 +55,12 @@ public abstract class Spawner : CTMonoBehaviour
             Debug.LogWarning("Prefab not found: " + prefabName);
             return null;
         }
+        
+        return Spawn(prefab, spawnPos, rotation);
+    }
+
+    public virtual Transform Spawn(Transform prefab, Vector3 spawnPos, Quaternion rotation)
+    {
         Transform newPrefab = this.GetObjectFromPool(prefab);
         newPrefab.SetLocalPositionAndRotation(spawnPos, rotation);
 
@@ -87,5 +97,11 @@ public abstract class Spawner : CTMonoBehaviour
             if (prefab.name == prefabName) return prefab;
         }
         return null;
+    }
+
+    public virtual Transform RandomPrefab()
+    {
+        int rand = UnityEngine.Random.Range(0, this.prefabs.Count);
+        return this.prefabs[rand];
     }
 }

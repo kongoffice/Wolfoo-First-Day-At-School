@@ -52,7 +52,7 @@ public abstract class Spawner : CTMonoBehaviour
             return null;
         }
         Transform newPrefab = this.GetObjectFromPool(prefab);
-        newPrefab.SetLocalPositionAndRotation(spawnPos, rotation);
+        newPrefab.SetPositionAndRotation(spawnPos, rotation);
 
         newPrefab.parent = this.holder;
         return newPrefab;

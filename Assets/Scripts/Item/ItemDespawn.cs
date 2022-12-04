@@ -8,10 +8,4 @@ public class ItemDespawn : DespawnByDitance
     {
         ItemSpawner.Intance.Despawn(transform.parent);
     }
-
-    protected override void ResetValue()
-    {
-        base.ResetValue();
-        this.disLimit = 105;
-    }
 }

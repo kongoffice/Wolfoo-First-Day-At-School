@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f876869965ea9974590c560193227424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemCtrl: {fileID: 0}
+  itemCtrl: {fileID: 514200536}
   randomDelay: 1
   randomTimer: 0
   randomLimit: 9

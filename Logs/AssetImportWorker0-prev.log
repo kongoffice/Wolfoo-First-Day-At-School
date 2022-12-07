@@ -15,7 +15,7 @@ E:/Unity/Projects/Wolfoo-Clone-FDAS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64591
+58544
 Successfully changed project path to: E:/Unity/Projects/Wolfoo-Clone-FDAS
 E:/Unity/Projects/Wolfoo-Clone-FDAS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity/Projects/Wolfoo-Clone-FDAS
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.05 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,83 +63,83 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008634 seconds.
+Registered in 0.007151 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 116.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 115.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.817 seconds
+- Completed reload, in  0.724 seconds
 Domain Reload Profiling:
-	ReloadAssembly (818ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (617ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (71ms)
+				InitializePlatformSupportModulesInManaged (70ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008067 seconds.
+Registered in 0.005482 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\Wolfoo-Clone-FDAS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\Wolfoo-Clone-FDAS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 100.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 98.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  1.282 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1333ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (210ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (991ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (498ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,12 +150,12 @@ Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field (UIHsvModifier)': fallback shader 'TextMeshPro/Mobile/Distance Field (UIHsv)' not found
 Shader 'TextMeshPro/Distance Field (UIHsvModifier)': fallback shader 'TextMeshPro/Mobile/Distance Field (UIHsv)' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4355 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.8 MB). Loaded Objects now: 4829.
-Memory consumption went from 172.2 MB to 170.4 MB.
-Total: 3.949400 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.247700 ms MarkObjects: 2.551300 ms  DeleteObjects: 0.813800 ms)
+Unloading 4389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.8 MB). Loaded Objects now: 4863.
+Memory consumption went from 173.1 MB to 171.3 MB.
+Total: 3.983700 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.322300 ms MarkObjects: 2.448600 ms  DeleteObjects: 0.850400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,349 +169,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 506.999515 seconds.
-  path: Assets/ART/Level 2/Khung/tamgiac.png
-  artifactKey: Guid(711df330123b16a45830d1c159dfe36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Khung/tamgiac.png using Guid(711df330123b16a45830d1c159dfe36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39574c6bce72e5e66567ae18d551c53d') in 0.129500 seconds 
+  Time since last request: 1845.077815 seconds.
+  path: Assets/Scripts/Item/ItemTranslate.cs
+  artifactKey: Guid(04b054f78ae2cd0418e44b29a319ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item/ItemTranslate.cs using Guid(04b054f78ae2cd0418e44b29a319ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9321b2bcd0da11d153cb499477dbaff') in 0.021074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 1/Đồ ăn/hop sua.png
-  artifactKey: Guid(b9ac884ec85399a4ebba72d701b2750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Đồ ăn/hop sua.png using Guid(b9ac884ec85399a4ebba72d701b2750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd2b7886484107af76b9d1ef25a6cb2') in 0.033111 seconds 
+  Time since last request: 844.577952 seconds.
+  path: Assets/Scripts/Item/ItemDespawn.cs
+  artifactKey: Guid(41f8955481c84974486554ae6b837d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item/ItemDespawn.cs using Guid(41f8955481c84974486554ae6b837d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cd098d04f6f0c02584dd3c1c4b09a8') in 0.005073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ART/Level 2/Khung/tron.png
-  artifactKey: Guid(0a20e66c68c404b43bcbb6397a41e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Khung/tron.png using Guid(0a20e66c68c404b43bcbb6397a41e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94927ee700b0c89ab332b59e8e5dd53') in 0.030748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/3.png
-  artifactKey: Guid(466257f8a73b0ed43b883d8fad2fa5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/3.png using Guid(466257f8a73b0ed43b883d8fad2fa5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492967baa3021d50bf37b097855e1b75') in 0.031946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ART/Level 1/BG/BG1.png
-  artifactKey: Guid(191508a78574c5e439f2012e146b3eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/BG/BG1.png using Guid(191508a78574c5e439f2012e146b3eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d594391dc4d55c4991efb8850ee447') in 0.288791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 2/Khung/vuong.png
-  artifactKey: Guid(88242ecf96061b44c9dac85707dd359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Khung/vuong.png using Guid(88242ecf96061b44c9dac85707dd359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a7dede23470d6ba34ef23948d611ca') in 0.028523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 1/Đồ ăn/pizza.png
-  artifactKey: Guid(98f9cedfb3dba37448c2852b6efbc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Đồ ăn/pizza.png using Guid(98f9cedfb3dba37448c2852b6efbc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d058bab35fa1c46a52c040f0153e238') in 0.043422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 2/Hình vuông/1.png
-  artifactKey: Guid(7ee918d7ff15140478f766af017beca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/1.png using Guid(7ee918d7ff15140478f766af017beca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973fae07b648610a6919c35061aedc20') in 0.107835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 1/BG/BG2.png
-  artifactKey: Guid(1be98850a74445348ac0713c63e8202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/BG/BG2.png using Guid(1be98850a74445348ac0713c63e8202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e32125a4f7de5ee838c08baad94fe9c') in 0.248818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 2/Hình tròn/6.png
-  artifactKey: Guid(efeb6124ad938854e94184910ddac3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/6.png using Guid(efeb6124ad938854e94184910ddac3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674918ada5d35e968f95045f2ec3f275') in 0.088944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ART/Level 1/Đồ ăn/banh my.png
-  artifactKey: Guid(0da7dc503a06c8e469d2ab7c85b3af04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Đồ ăn/banh my.png using Guid(0da7dc503a06c8e469d2ab7c85b3af04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34da46e9952ddabbe8d069544f3860d') in 0.044065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ART/Level 2/Hình vuông/6.png
-  artifactKey: Guid(1181109f0e17a4a45888988eef5522ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/6.png using Guid(1181109f0e17a4a45888988eef5522ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08be7bde1dcb7317c3519588e1903ff2') in 0.063249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/4.png
-  artifactKey: Guid(1a913d74789f1ef46aa3c215b9fc4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/4.png using Guid(1a913d74789f1ef46aa3c215b9fc4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4955d7705c465a6efc40e7987bc358e1') in 0.027395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 2/Hình tròn/2.png
-  artifactKey: Guid(d4c482fe09bd64c46bde0b134c4047fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/2.png using Guid(d4c482fe09bd64c46bde0b134c4047fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09feeb585fb2f6f3f2278ad2d2e69775') in 0.095552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 1/BG/bus stop.png
-  artifactKey: Guid(e0465a540283fbb4da1232c073f14ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/BG/bus stop.png using Guid(e0465a540283fbb4da1232c073f14ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ac143b61127b2bae643e2118622fa') in 0.137096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ART/Level 1/BG/demo.png
-  artifactKey: Guid(56ff3ce2682730041b504adb9d1e7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/BG/demo.png using Guid(56ff3ce2682730041b504adb9d1e7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fbdab41ce5ae66424459fcc04b632b') in 0.161218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 3/BG/BG.png
-  artifactKey: Guid(ede7ed99ed070814cb95f1bdaac44ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/BG/BG.png using Guid(ede7ed99ed070814cb95f1bdaac44ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2138d05b49e63a197d7db36cbdacf7') in 0.183647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/18.png
-  artifactKey: Guid(712cd263f3d2acc498b9a140055f433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/18.png using Guid(712cd263f3d2acc498b9a140055f433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553360ee46033ee689fb33115d6f3c3') in 0.033613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/14.png
-  artifactKey: Guid(9cf80758f972276478a99d17910a92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/14.png using Guid(9cf80758f972276478a99d17910a92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbfd6e23cc4d102eba2f63542706b4e') in 0.030466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/16.png
-  artifactKey: Guid(eddff341e8003914784ce6da1def8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/16.png using Guid(eddff341e8003914784ce6da1def8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66566a28c453dc3652f61aceb7dd5616') in 0.026064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/12.png
-  artifactKey: Guid(6efc874930d28394486737f69c28ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/12.png using Guid(6efc874930d28394486737f69c28ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f6ac8db14579f9469122de03c803f1') in 0.034114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ART/Level 3/Mặt trời/tia nang.png
-  artifactKey: Guid(316d6e348fac3944a9f56609263708dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Mặt trời/tia nang.png using Guid(316d6e348fac3944a9f56609263708dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b038fc9ebff9302a25d89e6808f64') in 0.066755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ART/Level 3/Mặt trời/mat.png
-  artifactKey: Guid(55c88204ef71afa438bced4a29af58e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Mặt trời/mat.png using Guid(55c88204ef71afa438bced4a29af58e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0685788026f66038f2bed9ae56b12260') in 0.024644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ART/Level 3/Mặt trời/sun.png
-  artifactKey: Guid(27b8e1a3e9db571478c462bff9880432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Mặt trời/sun.png using Guid(27b8e1a3e9db571478c462bff9880432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a648155d06d0d635f366a256c586b1') in 0.028467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/2.png
-  artifactKey: Guid(158fe0e46706d194696fa992a53309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/2.png using Guid(158fe0e46706d194696fa992a53309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0c8dc3a0afea179bcc54d32fa04e23') in 0.030932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 2/Hình tròn/5.png
-  artifactKey: Guid(c0790d80c8592a942a4227eddd524a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/5.png using Guid(c0790d80c8592a942a4227eddd524a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac6cb8d7ff296c1be70f809cd0a2e6') in 0.095108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 1/Đồ ăn/pork.png
-  artifactKey: Guid(17ebfed25337f294ca75181162c0575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Đồ ăn/pork.png using Guid(17ebfed25337f294ca75181162c0575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cea8b76c460705c622f616a001d930') in 0.047311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ART/Level 2/Hình tròn/4.png
-  artifactKey: Guid(bf7e9fba484e2204f9807db27d71c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/4.png using Guid(bf7e9fba484e2204f9807db27d71c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa883789b9db4ae1392b9c4c1463069e') in 0.075867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ART/Level 2/Hình vuông/3.png
-  artifactKey: Guid(14ed3829f28bc1c4cb1ca9d6992d4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/3.png using Guid(14ed3829f28bc1c4cb1ca9d6992d4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dbe864ab1cd87157a984f845f5f73f') in 0.093336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ART/Level 3/BG/demo.png
-  artifactKey: Guid(8de726ade548b704d892d0d16c23aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/BG/demo.png using Guid(8de726ade548b704d892d0d16c23aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebb73d325185e84880069ea2934ab08') in 0.180094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/1.png
-  artifactKey: Guid(7ee41dd72b01337418873f49f2b2233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/1.png using Guid(7ee41dd72b01337418873f49f2b2233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff032f917bc5bea1b8becf67a1cb1d') in 0.026397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 1/Đồ ăn/hot dog.png
-  artifactKey: Guid(f0fc58b02f309f54d9e50c8748ba756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Đồ ăn/hot dog.png using Guid(f0fc58b02f309f54d9e50c8748ba756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9747d1731e89df1aef9c66b9e40a142') in 0.064047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 2/Hình tròn/7.png
-  artifactKey: Guid(a1427a095b4d0b141a4c4b8d791f41c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/7.png using Guid(a1427a095b4d0b141a4c4b8d791f41c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3f280d2c57aa6dbcd950726c3fffc9') in 0.108429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 2/Hình vuông/5.png
-  artifactKey: Guid(4ffa49087ac22b74588013ac35087985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/5.png using Guid(4ffa49087ac22b74588013ac35087985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87f30c50f1757bda6bebe5b1561c88d') in 0.089942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/3.png
-  artifactKey: Guid(4aeb7da5e54d3234e95fac7fd6dc8e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/3.png using Guid(4aeb7da5e54d3234e95fac7fd6dc8e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee0df36cbfa1d28eb27b88dbc804a56') in 0.027377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/13.png
-  artifactKey: Guid(0a6f75ba3a145bb4a9c794a0e5e8b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/13.png using Guid(0a6f75ba3a145bb4a9c794a0e5e8b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434a424c7c02b9855a1eb03c574021c5') in 0.029629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ART/Level 2/BG/bg.png
-  artifactKey: Guid(299e94eb5e53b894584385210c84b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/BG/bg.png using Guid(299e94eb5e53b894584385210c84b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ae7a0723e5f73eec2ed410a1ea9a03') in 0.143405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 2/Hình tròn/1.png
-  artifactKey: Guid(13f1733a91fefdb4c8a5366f0bb79e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/1.png using Guid(13f1733a91fefdb4c8a5366f0bb79e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1aa3598e23fe72faaf89f2c5a7fc78') in 0.089608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 2/BG/demo.png
-  artifactKey: Guid(9fc3b170dfc69304c8be399927d672f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/BG/demo.png using Guid(9fc3b170dfc69304c8be399927d672f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff393f8515717fef798aea0efd2239b') in 0.160390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/4.png
-  artifactKey: Guid(e644ac2320c13114b890b5a7b9d488d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/4.png using Guid(e644ac2320c13114b890b5a7b9d488d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542380e70aeabea8eaa7d7adba9c7ab7') in 0.025453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ART/Level 2/Hình vuông/2.png
-  artifactKey: Guid(58b49cb885fd4a74eb790f825195ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/2.png using Guid(58b49cb885fd4a74eb790f825195ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8767d7cd656a95949871fd9fee6f92') in 0.061624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/2.png
-  artifactKey: Guid(019f46db744604d4387539f2f0938976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/2.png using Guid(019f46db744604d4387539f2f0938976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c05e78817e0087100bb2cb752b1a60') in 0.022530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ART/Level 2/Hình tròn/3.png
-  artifactKey: Guid(e0b9731a3d38754448bb67846c6ce13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình tròn/3.png using Guid(e0b9731a3d38754448bb67846c6ce13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06122ec65e8796770f050eb8cea32f69') in 0.078167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/mask opacity.png
-  artifactKey: Guid(1521fb43cdcda6d45b16b24f9f9caab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/mask opacity.png using Guid(1521fb43cdcda6d45b16b24f9f9caab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba262db2936a8bac6f520fc6d978e19') in 0.026181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/11.png
-  artifactKey: Guid(09d5db745e1ce3341aff6ae038d0be31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/11.png using Guid(09d5db745e1ce3341aff6ae038d0be31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a78a05ae9c68f2d4af0bae758320f41') in 0.020957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/9.png
-  artifactKey: Guid(7668799b2c8658949a0df10913aec7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/9.png using Guid(7668799b2c8658949a0df10913aec7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95a1c22187b92540a3c9128dc76b3d0') in 0.027187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/17.png
-  artifactKey: Guid(358375430b9e12b458925b697cd1cfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/17.png using Guid(358375430b9e12b458925b697cd1cfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5abe5a756f1803e1db84aa520692c7') in 0.027428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/15.png
-  artifactKey: Guid(6cc8dc7c83bd5d949b43f4caeec61caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/15.png using Guid(6cc8dc7c83bd5d949b43f4caeec61caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9542b74e14c49f877e151a14b7109a') in 0.022606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/8.png
-  artifactKey: Guid(12ada329649c0ab4e9611caea2c2d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/8.png using Guid(12ada329649c0ab4e9611caea2c2d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66828095ab6c847a2852dfb3f97a5e1c') in 0.028591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/5.png
-  artifactKey: Guid(c5a457d5ddee4b54ea0ff9a36776dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/5.png using Guid(c5a457d5ddee4b54ea0ff9a36776dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ae457c790b7b2025d12a8f45161a63') in 0.028080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ART/Level 2/BG/ban.png
-  artifactKey: Guid(b8a0ba3db4527d546aa3527718e6d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/BG/ban.png using Guid(b8a0ba3db4527d546aa3527718e6d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3178ec80d89139af541aca6c97518859') in 0.050376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 1/Khung đồ ăn/1.png
-  artifactKey: Guid(3f49b49e818309b4e87ab8635c386b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 1/Khung đồ ăn/1.png using Guid(3f49b49e818309b4e87ab8635c386b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d6c8d703fd11151f6ff15b18f8c96d') in 0.038471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/6.png
-  artifactKey: Guid(fc7e1827e77bb9f48affbce20a653264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/6.png using Guid(fc7e1827e77bb9f48affbce20a653264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db13a705b6fe43796f7a989f709058e0') in 0.023462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ART/Level 2/Hình vuông/4.png
-  artifactKey: Guid(41d928d0234908149a002e7c62046a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/4.png using Guid(41d928d0234908149a002e7c62046a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5081d72dbf165d95b9dbcb410a4cf1') in 0.086395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/10.png
-  artifactKey: Guid(1bb7724d3775e7847b3760510350470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/10.png using Guid(1bb7724d3775e7847b3760510350470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2075a3fa6be6dd12405658e588b34cb') in 0.114326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ART/Level 2/Hình vuông/7.png
-  artifactKey: Guid(18da2f7ee9e9ffd45bf8ed0c96fd412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 2/Hình vuông/7.png using Guid(18da2f7ee9e9ffd45bf8ed0c96fd412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d904c76d36ba0aaa6582fe366af72f') in 0.106421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/5.png
-  artifactKey: Guid(5d6e0f7de5ec85849af2c65205979b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/5.png using Guid(5d6e0f7de5ec85849af2c65205979b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e4e04ad598daadaddd2fc053e4cca9') in 0.028684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ART/Level 3/Khung nhạt/7.png
-  artifactKey: Guid(f1686b33ba53eb74bac2a071e4775d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/Level 3/Khung nhạt/7.png using Guid(f1686b33ba53eb74bac2a071e4775d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b085110df58062848635db8cc4b67f5') in 0.020666 seconds 
+  Time since last request: 5993.947940 seconds.
+  path: Assets/Scenes/Level 7.unity
+  artifactKey: Guid(250ca0f4ad0e348438f411fc41d1a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 7.unity using Guid(250ca0f4ad0e348438f411fc41d1a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398af962110bd3050639ca3a43c8a609') in 0.005523 seconds 

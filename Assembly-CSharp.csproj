@@ -71,6 +71,7 @@
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIEffectCapturedImage.cs" />
     <Compile Include="Assets\Scripts\Level 1\BackgroundScroller.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\MaterialCache.cs" />
+    <Compile Include="Assets\Scripts\Home\HomeGame.cs" />
     <Compile Include="Assets\Scripts\CTMonoBehaviour.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIShadow.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UIDissolve.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\Matrix2x3.cs" />
+    <Compile Include="Assets\Script\MenuController\IntListBank.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\ShadowStyle.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\UITransitionEffect.cs" />
     <Compile Include="Assets\Coffee\UIExtensions\UIEffect\Scripts\Common\MaterialResolver.cs" />
@@ -940,6 +942,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7609E00A-0C9D-B639-3975-2E9FF3C131EF}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
       <Project>{BAF6F620-94D2-CAA4-0094-DC8BE3742D44}</Project>
       <Name>spine-unity</Name>

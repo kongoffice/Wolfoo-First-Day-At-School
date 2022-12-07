@@ -930,9 +930,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7609E00A-0C9D-B639-3975-2E9FF3C131EF}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{9B15CA9C-6FD8-BE93-B427-C29E504D883D}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{716A9D73-FA20-6354-83AC-3FF594A5CE54}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
       <Project>{BAF6F620-94D2-CAA4-0094-DC8BE3742D44}</Project>

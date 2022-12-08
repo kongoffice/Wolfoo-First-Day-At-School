@@ -1,0 +1,3 @@
+- Vào folder "Assets/Resources" , Chuột phải => Create => SCN => Scriptable Objects => Particle system settings
+- Import Package "Particle effect"
+- Nếu muốn sử dụng bất kì Particle cần đọc trước và setting theo 'Readme' của Package 'Particle effect'
